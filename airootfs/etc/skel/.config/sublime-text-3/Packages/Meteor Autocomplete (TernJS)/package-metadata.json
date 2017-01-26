@@ -1,0 +1,1 @@
+{"sublime_text": ">=3000", "version": "1.0.9", "platforms": ["*"], "dependencies": [], "description": "Meteor Framework autocompletion for Sublime", "url": "https://github.com/Slava/tern-meteor-sublime"}

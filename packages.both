@@ -11,26 +11,37 @@ xorg-xprop
 ##Sound
 alsa-utils
 
-##video drivers
+##video drivers (old)
+#mesa
+#xf86-video-vmware
+#xf86-video-ark
+#xf86-video-ati
+#xf86-video-fbdev
+#xf86-video-glint
+#xf86-video-i128
+#xf86-video-intel
+#xf86-video-mach64
+#xf86-video-neomagic
+#xf86-video-nouveau
+#xf86-video-nv
+#xf86-video-openchrome
+#xf86-video-r128
+#xf86-video-savage
+#xf86-video-siliconmotion
+#xf86-video-sis
+#xf86-video-tdfx
+#xf86-video-trident
+
+##video drivers (new)
 mesa
-xf86-video-vmware
-xf86-video-ark
+mesa-vdpau
 xf86-video-ati
 xf86-video-fbdev
-xf86-video-glint
-xf86-video-i128
 xf86-video-intel
-xf86-video-mach64
-xf86-video-neomagic
 xf86-video-nouveau
-xf86-video-nv
 xf86-video-openchrome
-xf86-video-r128
-xf86-video-savage
-xf86-video-siliconmotion
-xf86-video-sis
-xf86-video-tdfx
-xf86-video-trident
+xf86-video-vesa
+xf86-video-vmware
 
 ##networking
 networkmanager
@@ -320,20 +331,20 @@ python-urllib3
 python-virtualenv
 python-xdg
 python2-appdirs
-python2-bonobo
+###python2-bonobo
 python2-cairo
 python2-cffi
 python2-cryptography
 python2-dbus
 python2-enum34
 python2-gconf
-python2-gnomecanvas
-python2-gnomevfs
+###python2-gnomecanvas
+###python2-gnomevfs
 python2-gobject
 python2-gobject2
 python2-idna
 python2-ipaddress
-python2-libgnome
+###python2-libgnome
 python2-nautilus
 python2-netifaces
 python2-notify
